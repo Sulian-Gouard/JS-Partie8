@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#myReveal {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: palevioletred;
+  color: white;
+  cursor: pointer;
+  padding: 13px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myReveal:hover {
+  background-color: #555;
+}
